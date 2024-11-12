@@ -29,7 +29,7 @@ btnChange1.addEventListener("click", function(event){
 });
 btnChange2.addEventListener("click", function(event){
     affectMe2.innerText = "Hope you had a great three day weekend";
-    affectMe2.className = "newStyle";
+    affectMe2.className = "bgWhite newStyle";
 });
 btnChange3.addEventListener("click", function(event){
     affectMe3.innerText = "We love to code";
@@ -42,31 +42,58 @@ btnChange4.addEventListener("click", function(event){
 });
 
 btnChange5.addEventListener("click", function(event){
-    affectMe5.innerText = "We love to code";
+    affectMe5.innerText = "Thump Thump";
     affectMe5.className = "newStyle " + "heartbeat";
 });
 
 btnChange6.addEventListener("click", function(event){
-    affectMe6.innerText = "We love to code";
+    affectMe6.innerText = "WEEEE";
     affectMe6.className = "newStyle " + "spinner";
 });
 
 btnChange7.addEventListener("click", function(event){
-    affectMe7.innerText = "We love to code";
+    affectMe7.innerText = "WOAH";
     affectMe7.className = "newStyle " + "wiggle";
 });
 
 btnChange8.addEventListener("click", function(event){
-    affectMe8.innerText = "We love to code";
+    affectMe8.innerText = "AHHHH";
     affectMe8.className = "newStyle " + "shake";
 });
 
 btnChange9.addEventListener("click", function(event){
-    affectMe9.innerText = "We love to code";
-    affectMe9.className = "newStyle " + "pound";
+    affectMe9.innerText = "♡";
+    affectMe9.className = "newStyle" + "pound";
 });
 
 btnChange10.addEventListener("click", function(event){
+    affectMe1.innerText = "Good Bye!";
+    affectMe1.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe2.innerText = "Good Bye!";
+    affectMe2.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe3.innerText = "Good Bye!";
+    affectMe3.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe4.innerText = "Good Bye!";
+    affectMe4.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe5.innerText = "Good Bye!";
+    affectMe5.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe6.innerText = "Good Bye!";
+    affectMe6.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe7.innerText = "Good Bye!";
+    affectMe7.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe8.innerText = "Good Bye!";
+    affectMe8.className = "wholeLottaRed " + "fadeOut";
+
+    affectMe9.innerText = "Good Bye!";
+    affectMe9.className = "wholeLottaRed " + "fadeOut";
+
     affectMe10.innerText = "Good Bye!";
-    affectMe10.className = "newStyle " + "fadeOut";
+    affectMe10.className = "wholeLottaRed " + "fadeOut";
 });
